@@ -1,0 +1,11 @@
+﻿<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TabbedApp;assembly=TabbedApp" x:Class="TabbedApp.MainPage">
+    <local:IntroPage Title="Intro" IconImageSource="Home.png"/>
+    <local:DriverPage Title="Driver" IconImageSource="car.png"/>
+    <local:CreditsPage Title="Credits" IconImageSource="credits.png"/>
+    <!--<NavigationPage Title="Schedule" IconImageSource="schedule.png">
+        <x:Arguments>
+            <local:SchedulePage />
+        </x:Arguments>
+    </NavigationPage>-->
+    
+</TabbedPage>
