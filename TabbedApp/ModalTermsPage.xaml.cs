@@ -10,18 +10,18 @@ using Xamarin.Forms.Xaml;
 namespace TabbedApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CreditsPage : ContentPage
+    public partial class ModalTermsPage : ContentPage
     {
-        public CreditsPage()
+        public ModalTermsPage()
         {
             InitializeComponent();
         }
 
-        private async void Button_OnClicked(object sender, EventArgs e)
+        private async void OnClicked(object sender, EventArgs e)
         {
-            var termsModal = new ModalTermsPage();
-
-            await Navigation.PushModalAsync(termsModal);
+            await Navigation.PopModalAsync();
         }
+
+        
     }
 }

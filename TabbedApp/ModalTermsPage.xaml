@@ -4,15 +4,14 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TabbedApp.CreditsPage">
+             x:Class="TabbedApp.ModalTermsPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Credits"
-                VerticalOptions="Center" 
+            <Label Text="Terms of Use"
+                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Label Text ="Idea by: Matt Green"/>
-            <Label Text="Flawlessly executed by: Lucas Wolfs"/>
-            <Button Text="Terms of Use" Clicked="Button_OnClicked"></Button>
+            <Label Text="For educational purposes only. "></Label>
+            <Button Text="Ok" Clicked="OnClicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
